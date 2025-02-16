@@ -40,7 +40,7 @@ cd %USERPROFILE%\AppData\Local\ms-playwright\chromium-1129\chrome-win
 
 #### **Step 2:**  
 ```bash
-.\chrome --remote-debugging-port=9222
+%USERPROFILE%\AppData\Local\ms-playwright\chromium-1129\chrome-win> .\chrome --remote-debugging-port=9222
 ```  
 
 #### **Step 3:**  
