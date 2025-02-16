@@ -19,15 +19,19 @@ pandas, numpy
 🚀 How to Use  
 1️⃣ Install dependencies  
 2️⃣ Setup Playwright (only needed once)  
-3️⃣ Start Chrome with remote debugging
+3️⃣ Start Chrome with remote debugging  
 Step 1:   
 ```bash
- cd %USERPROFILE%\AppData\Local\ms-playwright\chromium-1129\chrome-win  4
+ cd %USERPROFILE%\AppData\Local\ms-playwright\chromium-1129\chrome-win  
 ```
 Step 2:  
 ``` bash
-.\chrome --remote-debugging-port=9222
+%USERPROFILE%\AppData\Local\ms-playwright\chromium-1129\chrome-win>  .\chrome --remote-debugging-port=9222
 ```
+Step 3:
+Search ```http://localhost:9222/json/version``` in chromium browser and copy the value of webSocketDebuggerUrl
+Step 4: 
+Paste the value in  ```web_socket_path``` variable
 
 
 
