@@ -18,7 +18,14 @@ gspread-pandas
 pandas, numpy   
 🚀 How to Use  
 1️⃣ Install dependencies  
-2️⃣ Setup Playwright (only needed once)  
+2️⃣ Setup Playwright (only needed once)
+  ``` bash
+  pip install pytest-playwright
+  ```  
+  ``` bash
+  playwright install  
+  ```
+  
 3️⃣ Start Chrome with remote debugging  
 Step 1:   
 ```bash
@@ -29,9 +36,12 @@ Step 2:
 %USERPROFILE%\AppData\Local\ms-playwright\chromium-1129\chrome-win>  .\chrome --remote-debugging-port=9222
 ```
 Step 3:
-Search ```http://localhost:9222/json/version``` in chromium browser and copy the value of webSocketDebuggerUrl
-Step 4: 
-Paste the value in  ```web_socket_path``` variable
+Search ```http://localhost:9222/json/version``` in chromium browser and copy the value of webSocketDebuggerUrl => Paste the value in  ```web_socket_path``` variable  
+Step 4:  
+Input all information  
+Step 5:
+Starting the code
+
 
 
 
