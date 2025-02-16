@@ -65,7 +65,7 @@ Copy the value of `webSocketDebuggerUrl` and paste it into the `web_socket_path`
 - Input all necessary settings and parameters before execution.  
 
 ### 7️⃣ Run the Script  
-- Once everything is set up, execute the script, and Playwright will handle the rest! \ud83d\ude80  
+- Once everything is set up, execute the script, and Playwright will handle the rest! 
 
 
 
