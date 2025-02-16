@@ -1,4 +1,4 @@
-# 🛍️ Scrape Lazada Ratings & Prices
+# Scrape Lazada Ratings & Prices
 
 ## 📌 Overview  
 This script automates scraping price, total ratings, and monthly ratings from Lazada product pages across multiple countries.  
