@@ -20,11 +20,14 @@ pandas, numpy
 1️⃣ Install dependencies  
 2️⃣ Setup Playwright (only needed once)  
 3️⃣ Start Chrome with remote debugging
-Step 1:  
+Step 1:   
 ```bash
  cd %USERPROFILE%\AppData\Local\ms-playwright\chromium-1129\chrome-win  4
 ```
-Step 2: .\chrome --remote-debugging-port=9222
+Step 2:  
+``` bash
+.\chrome --remote-debugging-port=9222
+```
 
 
 
