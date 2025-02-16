@@ -1,7 +1,7 @@
-## \ud83d\udccc Overview  
+## 🚩 Overview  
 This script automates scraping price, total ratings, and monthly ratings from Lazada product pages across multiple countries.  
 
-### \ud83d\udee0\ufe0f Key Features  
+### 🔑 Key Features  
 - **Automated Data Extraction** – Uses Playwright to navigate Lazada product pages and extract key details.  
 - **Multi-Country Support** – Works across different Lazada country domains.  
 - **Total & Monthly Ratings** – Captures both total reviews and last month's reviews.  
@@ -13,7 +13,7 @@ This script automates scraping price, total ratings, and monthly ratings from La
 
 ---
 
-## \ud83d\udd27 Requirements  
+## 🛠 Requirements  
 - Python 3.9+  
 - Playwright  
 - gspread-pandas  
@@ -21,19 +21,19 @@ This script automates scraping price, total ratings, and monthly ratings from La
 
 ---
 
-## \ud83d\ude80 How to Use  
+## 🚀 How to Use  
 
-### 1\ufe0f\u20e3 Install dependencies  
+### 1️⃣ Install dependencies  
 ```bash
 pip install pytest-playwright
 ```
 
-### 2\ufe0f\u20e3 Setup Playwright (only needed once)  
+### 2️⃣ Setup Playwright (only needed once)  
 ```bash
 playwright install  
 ```
 
-### 3\ufe0f\u20e3 Start Chrome with remote debugging  
+### 3️⃣ Start Chrome with remote debugging  
 
 #### **Step 1:**  
 ```bash
@@ -52,21 +52,21 @@ http://localhost:9222/json/version
 ```  
 Copy the value of `webSocketDebuggerUrl` and paste it into the `web_socket_path` variable in the script.  
 
-### 4\ufe0f\u20e3 Setup Google Service Account  
+### 4️⃣ Setup Google Service Account  
 - Create a Google Service Account.  
 - Save the JSON credentials in the following directory:  
   ```
   %USERPROFILE%\AppData\Roaming\gspread_pandas\google_secret.json
   ```
 
-### 5\ufe0f\u20e3 Create a Google Spreadsheet  
+### 5️⃣ Create a Google Spreadsheet  
 - Follow this **[Google Sheets Template](https://docs.google.com/spreadsheets/d/1Lc2Oxqc1Pf2aQrVIbzAd3RnlM4ZGUDe-xgFIrDwzZx4/edit?gid=0)** for formatting.  
 - Share access to your service account in this spreadsheet.  
 
-### 6\ufe0f\u20e3 Configure the Script  
+### 6️⃣ Configure the Script  
 - Input all necessary settings and parameters before execution.  
 
-### 7\ufe0f\u20e3 Run the Script  
+### 7️⃣ Run the Script  
 - Once everything is set up, execute the script, and Playwright will handle the rest! \ud83d\ude80  
 
 
