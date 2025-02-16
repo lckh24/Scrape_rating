@@ -27,20 +27,22 @@ pandas, numpy
   ```
   
 3️⃣ Start Chrome with remote debugging  
-Step 1:   
+* Step 1:   
 ```bash
  cd %USERPROFILE%\AppData\Local\ms-playwright\chromium-1129\chrome-win  
 ```
-Step 2:  
+* Step 2:  
 ``` bash
 %USERPROFILE%\AppData\Local\ms-playwright\chromium-1129\chrome-win>  .\chrome --remote-debugging-port=9222
-```
-Step 3:
-Search ```http://localhost:9222/json/version``` in chromium browser and copy the value of webSocketDebuggerUrl => Paste the value in  ```web_socket_path``` variable  
-Step 4:  
-Input all information  
-Step 5:
-Starting the code
+```  
+* Step 3:
+Search ```http://localhost:9222/json/version``` in chromium browser and copy the value of webSocketDebuggerUrl => Paste the copied webSocketDebuggerUrl value into the web_socket_path variable in the script.  
+4️⃣ Create google service account and get json to correct folder %USERPROFILE%\AppData\Roaming\gspread_pandas\google_secret.json
+5️⃣ Create spreadsheet follow this Follow this **[Google Sheets Template](https://docs.google.com/spreadsheets/d/1Lc2Oxqc1Pf2aQrVIbzAd3RnlM4ZGUDe-xgFIrDwzZx4/edit?gid=0)** for formatting. Make sure you shared your service account in this spreadsheet  
+6️⃣ Input all necessary for the script.
+7️⃣ Once everything is set up, execute your script, and Playwright will handle the rest! 🚀
+
+
 
 
 
