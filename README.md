@@ -1,3 +1,4 @@
+# **Scrape Lazada Ratings & Prices**
 ## 🚩 Overview  
 This script automates scraping price, total ratings, and monthly ratings from Lazada product pages across multiple countries.  
 
@@ -6,11 +7,8 @@ This script automates scraping price, total ratings, and monthly ratings from La
 - **Multi-Country Support** – Works across different Lazada country domains.  
 - **Total & Monthly Ratings** – Captures both total reviews and last month's reviews.  
 - **Dynamic Price Extraction** – Extracts and formats the latest product price from Lazada.  
-- **Google Sheets Integration** – Automatically stores scraped data into a Google Sheets document.  
-- **Sorting & Filtering** – Allows sorting reviews by criteria like "most recent" for better insights.  
-- **Fuzzy Matching for URLs** – Ensures the correct product page is selected by comparing URL similarity.  
-- **Error Handling & Logging** – Implements error handling to ensure smooth execution and logs potential failures.  
-
+- **Google Sheets Integration** – Automatically stores scraped data into a Google Sheets document.
+- 
 ---
 
 ## 🛠 Requirements  
